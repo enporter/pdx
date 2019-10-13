@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { accountSelector } from '../store/selectors'
-import Logo from '../logo.png'
+import Logo from './logo.png'
 
 class Navbar extends Component {
   render() {
