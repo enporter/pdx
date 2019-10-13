@@ -44,8 +44,8 @@ const showOrderBook = (props) => {
     <tbody>
       {orderBook.sellOrders.map((order) => renderOrder(order, props))}
       <tr>
-        <th>DAPP</th>
-        <th>DAPP/ETH</th>
+        <th>PTV</th>
+        <th>PTV/ETH</th>
         <th>ETH</th>
       </tr>
       {orderBook.buyOrders.map((order) => renderOrder(order, props))}
@@ -85,14 +85,3 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps)(OrderBook);
-
-
-
-
-
-
-
-
-
-
-

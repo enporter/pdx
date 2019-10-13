@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PDX | 'Porter' Decentralized Exchange
+This project is a fully functional decentralized exchange which operates on Ethereum (Kovan ;-) testnet actually ). Maybe one day it will be a live project on Ethereum mainnet. The token available for trading is called PTV | Porter TV token in honor of my family company [Porter TV]([http://portertv.com/](http://portertv.com/)). The tokens aren't worth anything it's all just for kicks.
 
-## Available Scripts
+What the hell does decentralized exchange mean? All trades are integrated into the Smart Contract. The trades are executed by code on the Ethereum blockchain and not code on some centralized server somewhere. This literally means you are interacting and executing trades that are completely verifiable on the blockchain.
 
-In the project directory, you can run:
+## Build status
+Build status of continus integration i.e. travis, appveyor etc. Ex. -
 
-### `npm start`
+[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Future Development
+Looking to integrate other tokens to be able to trade multiple tokens within Ethereum.  
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## How to use?
+If you are not familiar with Ethereum blockchain I suggest you check out their main page [Ethereum](https://www.ethereum.org/).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is currently deployed to the Kovan testnet. See  [testnet]([https://kovan-testnet.github.io/website/](https://kovan-testnet.github.io/website/)) page for more information on what is Kovan.
+How do I get Ethereum on Kovan testnet?! Get free Ethereum on Kovan [here]([https://faucet.kovan.network/](https://faucet.kovan.network/)) 
