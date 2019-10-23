@@ -5,6 +5,7 @@ import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 contract Token {
     using SafeMath for uint;
 
+
     // Variables
     string public name = "Porter TV";
     string public symbol = "PTV";
